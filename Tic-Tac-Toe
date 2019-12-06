@@ -2,6 +2,7 @@
 <html>
 <body>
 <script>
+//password is password
 var password=prompt('What is the password?');if(password.indexOf('Password')==0){
 function converttostring(p1,p2,p3,p4,p5,p6,p7,p8,p9){
 var pos1,pos2,pos3,pos4,pos5,pos6,pos7,pos8,pos9;
