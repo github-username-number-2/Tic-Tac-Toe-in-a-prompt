@@ -1,3 +1,5 @@
+<html>
+<body>
 <script>
 var password=prompt('What is the password?');if(password.indexOf('Password')==0){
 function converttostring(p1,p2,p3,p4,p5,p6,p7,p8,p9){
@@ -105,3 +107,5 @@ if(check(pos1,pos2,pos3,pos4,pos5,pos6,pos7,pos8,pos9)==1){alert('You Win')};if(
 if(check(pos1,pos2,pos3,pos4,pos5,pos6,pos7,pos8,pos9)==0){alert('Tie')}}}}}}};
 if(menu.indexOf('2')>-1){alert('2')}}else{alert('Password is incorrect.')}
 </script>
+</body>
+</html>
