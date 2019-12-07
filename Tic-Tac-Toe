@@ -3,7 +3,7 @@
 <body>
 <script>
 //password is password
-var password=prompt('What is the password?');if(password.indexOf('Password')==0){
+var password=prompt('What is the password?');if(password.length==8){if(password.indexOf('Password')==0){
 function converttostring(p1,p2,p3,p4,p5,p6,p7,p8,p9){
 var pos1,pos2,pos3,pos4,pos5,pos6,pos7,pos8,pos9;
 if(p1==0){pos1=' '+' '}else{if(p1==1){pos1='x'}else{pos1='o'}};if(p2==0){pos2=' '+' '}else{if(p2==1){pos2='x'}else{pos2='o'}};if(p3==0){pos3=' '+' '}else{if(p3==1){pos3='x'}else{pos3='o'}};
@@ -107,7 +107,11 @@ if(m1.indexOf('8')!=-1){if(pos8==0){pos8=1}else{alert('You can not go in the sam
 if(m1.indexOf('9')!=-1){if(pos9==0){pos9=1}else{alert('You can not go in the same place.');alert('Fagget.');sp=true}};
 if(check(pos1,pos2,pos3,pos4,pos5,pos6,pos7,pos8,pos9)==1){alert('You Win')};if(check(pos1,pos2,pos3,pos4,pos5,pos6,pos7,pos8,pos9)==2){alert('You Loose')};
 if(check(pos1,pos2,pos3,pos4,pos5,pos6,pos7,pos8,pos9)==0){alert('Tie')}}}}}}};
-if(menu.indexOf('2')>-1){alert('2')}}else{alert('Password is incorrect.')}
+if(menu.indexOf('2')>-1){
+
+
+
+}}else{alert('Password is incorrect.')}else{alert('Password is incorrect.')}
 </script>
 </body>
 </html>
