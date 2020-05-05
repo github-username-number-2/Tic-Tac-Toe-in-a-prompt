@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
-<script>
 //password is password
 var password=prompt('What is the password?');if(password.length==8){if(password.indexOf('Password')==0){
 function converttostring(p1,p2,p3,p4,p5,p6,p7,p8,p9){
@@ -108,6 +104,3 @@ if(m1.indexOf('9')!=-1){if(pos9==0){pos9=1}else{alert('You can not go in the sam
 if(check(pos1,pos2,pos3,pos4,pos5,pos6,pos7,pos8,pos9)==1){alert('You Win')};if(check(pos1,pos2,pos3,pos4,pos5,pos6,pos7,pos8,pos9)==2){alert('You Loose')};
 if(check(pos1,pos2,pos3,pos4,pos5,pos6,pos7,pos8,pos9)==0){alert('Tie')}}}}}}};
 }else{alert('Password is incorrect.')}}else{alert('Password is incorrect.')}
-</script>
-</body>
-</html>
