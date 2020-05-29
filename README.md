@@ -1,2 +1,3 @@
-# Tic-Tac-Toe-in-a-prompt
-a terrible game of tic tac toe within prompts that i made along time ago
+# Tic Tac Toe in a prompt
+A terrible game of tic tac toe within prompts that I made along time ago.
+I do not know why I added a password.
